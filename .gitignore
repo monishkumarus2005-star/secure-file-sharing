@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+minorenv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Environment & Secrets — NEVER commit these
+.env
+*.key
+secret.key
+encryption.key
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs & debug output
+*.log
+debug_log.txt
+alembic_upgrade_out.txt
+
+# Test/scratch files
+*.txt
+payload.json
+reg.json
+login.txt
+final.txt
+newfile.txt
+sharing_manual.txt
+verification.txt
+
+# Uploaded files (user data)
+uploads/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Hardhat / Blockchain
+cache/
+artifacts/
+/typechain
+/typechain-types
+/coverage
+/coverage.json
+ignition/deployments/chain-31337
+
+# Docker & Certbot
+certbot/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
